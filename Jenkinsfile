@@ -50,4 +50,4 @@ node {
         
         bat "${mvnHome}\\bin\\mvn site"
     }
-}
+} 
