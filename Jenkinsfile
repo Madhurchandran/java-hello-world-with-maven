@@ -41,11 +41,6 @@ node {
         bat "${mvnHome}\\bin\\mvn install"
     }
 
-    stage('Deploy') {
-        
-        bat "${mvnHome}\\bin\\mvn deploy"
-    }
-
     stage('Site') {
         
         bat "${mvnHome}\\bin\\mvn site"
