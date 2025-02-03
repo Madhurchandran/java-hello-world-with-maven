@@ -49,8 +49,8 @@ jobs:
     - name: Generate project site
       run: mvn site
 
-    - name: Deploy the artifact
-      run: mvn deploy
+    - name: version
+      run: mvn -v
 
     - name: Clean the project
       run: mvn clean
